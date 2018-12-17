@@ -1,0 +1,11 @@
+{"index": {"_index": "library", "_type" :"book", "_id": "1"}}
+{"title": "All Quiet on the Western Front", "otitle": "Im Western nichts Neues", "author": "Erich Maria Remarque", "year": 1929, "characters": ["Paul Baumer", "Albert Kropp", "Haie Westhus", "Fredrich Muller", "Stanislaus Katczinsky", "Tjaden"],"tags":["novel"],"available":true,"copies":1,"section":3}
+
+{"index": {"_index": "library", "_type": "book","_id" :"2"}}
+{"title": "Catch-22", "author": "Joseph Heller", "year": 1961, "characters" : ["John Yossarian", "Captain Aardvark", "Chaplain Tappman", "Colonel Cathcart", "Doctor Daneeka"], "tags": ["novel"], "available": false, "copies": 6, "section": 1}
+
+{"index": {"_index": "library", "_type": "book", "_id": "3"}}
+{"title": "The Complete Sherlock Holems", "author": "Arthur Conan Doyle", "year": 1936, "characters": ["Sherlock Holems", "Dr. Watson", "G. Lestrade"], "tags": [], "available": false, "copies": 0, "section": 12}
+
+{"index": {"_index": "library", "_type": "book", "_id": "4"}}
+{"title": "Crime and Punishment", "otitle": "Преступление и наказание", "author": "Fyodor Dostoevsky", "year": 1886, "characters": ["Raskolnikov", "Sofia Semyonovna Marmeladova"], "tags": [], "available": true, "copies": 0}

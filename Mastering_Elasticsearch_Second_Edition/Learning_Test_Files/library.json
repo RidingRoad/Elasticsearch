@@ -1,0 +1,48 @@
+{
+    "book": {
+        "properties": {
+            "author": {
+                "type": "string"
+            },
+            "characters": {
+                "type": "string"
+            },
+            "copies": {
+                "type": "long",
+                "ignore_malformed": false
+            },
+            "otitle": {
+                "type": "string",
+				"index":"not_analyzed"
+            },
+            "tags": {
+                "type": "string",
+				"index":"not_analyzed"
+            },
+            "title": {
+                "type": "string"
+            },
+            "year": {
+                "type": "long",
+                "ignore_malformed": false
+            },
+            "available": {
+                "type": "boolean"
+            },
+            "review": {
+                "type": "nested",
+                "properties": {
+                    "nickname": {
+                        "type": "string"
+                    },
+                    "string": {
+                        "type": "string"
+                    },
+                    "stars": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
